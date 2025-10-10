@@ -19,6 +19,10 @@
 #    - If they met or exceeded their goal, congratulate them for great hydration.
 # 5. End with a positive message to motivate them to keep going.
 
+# ----------------------------------------------------------
+# HydroBuddy V1
+# ----------------------------------------------------------
+
 # Greeting
 name = input("Hi, I'm HydroBuddy! What's your name? ")
 print(f"\nHi {name}!")
