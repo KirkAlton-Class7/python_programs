@@ -1,0 +1,45 @@
+#Ignore
+
+# Python build/bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Ignore Jupyter notebook checkpoints
+**/.ipynb_checkpoints
+
+# Ignore Jupyter global config
+.jupyter/
+.jupyter/*
+
+# Ignore certain Jupyter notebook files
+python_sandbox.ipynb
+sandbox.ipynb
+
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+
+# Ignore everything in .idea
+.idea/*
+
+# Ignore the folder itself
+.idea/
+
+# Keep only the useful files
+!.idea/*.iml
+!.idea/vcs.xml
+!.idea/modules.xml
+
